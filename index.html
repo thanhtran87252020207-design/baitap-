@@ -1,0 +1,300 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Portfolio | Trần Kim Thanh</title>
+  <meta name="description" content="Website giới thiệu bản thân và những dự án của Nguyễn Minh Anh.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- THANH MENU -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#home" class="logo">KimThanh<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Mở menu" aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#projects">Dự án</a>
+        <a href="#contact" class="nav-contact">Liên hệ</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- TRANG CHỦ -->
+    <section class="hero container" id="home">
+
+      <div class="hero-content">
+        <div class="status">
+          <span class="status-dot"></span>
+          Chào mừng đến với thế giới của mình
+        </div>
+
+        <p class="hello">XIN CHÀO, MÌNH LÀ KIM THANH</p>
+
+        <h1>TRẦN<br><span>KIM THANH.</span></h1>
+
+        <h2>Một người trẻ yêu thích sáng tạo chuyên nghành Digital Marketing ✨</h2>
+
+        <p class="hero-description">
+          Mình luôn thích sự sáng tạo và cái đẹp, yêu cái đẹp và
+          không ngừng học hỏi để trở thành phiên bản
+          tốt hơn của chính mình.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary">
+            Khám phá về mình ↗
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Kết nối với mình
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <img src="images/avatar.jpg" alt="Ảnh của tôi" class="avatar">
+          <div class="profile-name">Trần Kim Thanh</div>
+          <div class="profile-role">Creative • Dreamer • Learner</div>
+          <div class="profile-line"></div>
+          <div class="profile-quote">
+            "Create your own sunshine."
+          </div>
+        </div>
+
+        <div class="floating-tag tag-one">✦ Creative</div>
+        <div class="floating-tag tag-two">✧ Always learning</div>
+      </div>
+
+    </section>
+
+    <!-- GIỚI THIỆU -->
+    <section class="section section-dark" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2>Một chút <span>về mình</span></h2>
+          <p>Hãy để mình kể cho bạn nghe câu chuyện nhỏ của mình.</p>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="glass-card about-intro reveal">
+            <span class="card-emoji">👋</span>
+            <h3>Rất vui được gặp bạn!</h3>
+
+            <p>
+              Mình là Trần Kim Thanh, một người trẻ
+              yêu thích công nghệ, thiết kế và những
+              ý tưởng sáng tạo.
+            </p>
+
+            <p>
+              Mình tin rằng mỗi ngày đều là một cơ hội
+              để học thêm điều mới, khám phá khả năng
+              của bản thân và tạo ra những giá trị tích cực.
+            </p>
+
+            <p>
+              Mục tiêu của mình là xây dựng những sản phẩm
+              đẹp mắt, hữu ích và mang dấu ấn cá nhân.
+            </p>
+          </div>
+
+          <div class="about-facts">
+            <div class="glass-card fact reveal">
+              <div class="fact-icon">📍</div>
+              <div>
+                <span>Đến từ</span>
+                <h3>Việt Nam</h3>
+              </div>
+            </div>
+
+            <div class="glass-card fact reveal">
+              <div class="fact-icon">💜</div>
+              <div>
+                <span>Sở thích</span>
+                <h3>Sáng tạo & TMDT</h3>
+              </div>
+            </div>
+
+            <div class="glass-card fact reveal">
+              <div class="fact-icon">🎯</div>
+              <div>
+                <span>Mục tiêu</span>
+                <h3>Không ngừng phát triển</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- KỸ NĂNG -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / MY SKILLS</p>
+          <h2>Những điều mình <span>đang học</span></h2>
+          <p>Mỗi kỹ năng mới đều giúp mình tiến gần hơn tới ước mơ.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML</h3>
+            <p>Xây dựng nội dung và cấu trúc website.</p>
+            <div class="skill-label">Đang học</div>
+          </div>
+
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS</h3>
+            <p>Thiết kế giao diện đẹp và hiện đại.</p>
+            <div class="skill-label">Đang học</div>
+          </div>
+
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Thêm hiệu ứng và tương tác cho website.</p>
+            <div class="skill-label">Đang học</div>
+          </div>
+
+          <div class="glass-card skill-card reveal">
+            <div class="skill-icon">💡</div>
+            <h3>Sáng tạo</h3>
+            <p>Biến những ý tưởng nhỏ thành sản phẩm thú vị.</p>
+            <div class="skill-label">Yêu thích</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- DỰ ÁN -->
+    <section class="section section-dark" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / MY PROJECTS</p>
+          <h2>Những dự án <span>của mình</span></h2>
+          <p>Hành trình nào cũng bắt đầu từ những bước đi đầu tiên.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="glass-card project-card reveal">
+            <div class="project-preview preview-one">
+              <span>01</span>
+              <div>MY PORTFOLIO</div>
+              <div class="preview-symbol">✦</div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <h3>Website cá nhân</h3>
+              <p>
+                Website đầu tiên mình xây dựng để
+                giới thiệu bản thân và hành trình học tập.
+              </p>
+            </div>
+          </article>
+
+          <article class="glass-card project-card reveal">
+            <div class="project-preview preview-two">
+              <span>02</span>
+              <div>COMING SOON</div>
+              <div class="preview-symbol">✧</div>
+            </div>
+            <div class="project-info">
+              <div class="project-tags">
+                <span>Ý tưởng</span><span>Sáng tạo</span>
+              </div>
+              <h3>Dự án tiếp theo</h3>
+              <p>
+                Mình đang chuẩn bị những ý tưởng thú vị.
+                Hãy quay lại để xem sản phẩm mới nhé!
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LIÊN HỆ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <p class="eyebrow">04 / CONTACT ME</p>
+          <h2>Cùng nhau tạo nên<br><span>điều tuyệt vời!</span></h2>
+
+          <p>
+            Bạn có một ý tưởng thú vị hoặc chỉ đơn giản
+            muốn làm quen? Mình rất vui khi được kết nối!
+          </p>
+
+          <a class="btn btn-primary"
+             href="mailto:hello@example.com">
+            ✉ Gửi email cho mình
+          </a>
+
+          <div class="social-links">
+            <a href="https://www.facebook.com/thanhtrannn1004?locale=vi_VN"
+               target="_blank" rel="noopener noreferrer">
+              Facebook ↗
+            </a>
+
+            <a href="https://www.instagram.com/thanhtrn_neee/"
+               target="_blank" rel="noopener noreferrer">
+              Instagram ↗
+            </a>
+
+            <a href="https://github.com/"
+               target="_blank" rel="noopener noreferrer">
+              GitHub ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CHÂN TRANG -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#home" class="logo">KimThanh<span>.</span></a>
+      <p>© <span id="year"></span> Trần Kim Thanh. Love with 💜</p>
+    </div>
+  </footer>
+
+</body>
+</html>
